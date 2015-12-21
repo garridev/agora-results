@@ -3,8 +3,8 @@
 import json
 from itertools import groupby, chain
 from operator import itemgetter
-from pipes.base import Pipe
-from pipes import PipeReturnvalue
+from agora_results.pipes.base import Pipe
+from agora_results.pipes import PipeReturnvalue
 
 class sort_non_iterative(Pipe):
 
